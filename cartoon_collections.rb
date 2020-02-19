@@ -5,8 +5,9 @@ arr.each_with_index { |name, idx| print "#{idx + 1}. #{name}"}
 end
 
 def summon_captain_planet(arr) # code an argument here
-arr.map  do |el|
-  el.capitalize + '!'
+arr.map  do |str|
+  str.capitalize + '!'
+end
 end
 
 def long_planeteer_calls# code an argument here
